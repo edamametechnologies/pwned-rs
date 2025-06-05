@@ -1,5 +1,5 @@
-use std;
 use reqwest;
+use std;
 use thiserror::Error;
 
 #[derive(Error, Debug)]
