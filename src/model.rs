@@ -1,4 +1,4 @@
-use serde_derive::{Serialize, Deserialize};
+use serde_derive::{Deserialize, Serialize};
 
 #[derive(Debug)]
 pub struct Password {
@@ -21,4 +21,6 @@ pub struct Breach {
     pub is_sensitive: bool,
     pub is_retired: bool,
     pub is_spam_list: bool,
+    pub logo_path: String,
+    pub is_stealer_log: bool,
 }
